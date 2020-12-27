@@ -1,0 +1,36 @@
+ name: masters
+ channels:
+   - conda-forge
+ dependencies:
+   - python>=3.6
+   - numpy
+   - matplotlib
+   - cartopy>=0.17
+   - jupyter
+   - jupyterlab
+   - netcdf4
+   - owslib
+   - metpy
+   - pint
+   - shapely
+   - siphon
+   - xarray
+   - pip
+   - mplcursors
+   - gdal
+   - pandas
+   - xlrd>=1.0.0
+   - dask
+   - netcdf4
+   - glob2
+   - cmocean
+   - cmaps
+   - haversine
+   - pathlib
+   - scikit-learn
+   - scipy
+   - seaborn
+   - windrose
+   - pip:
+     - python-awips
+     - scikit-gstat
